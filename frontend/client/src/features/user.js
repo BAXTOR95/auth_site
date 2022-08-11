@@ -11,7 +11,7 @@ const userSlice = createSlice({
 	name: 'user',
 	initialState,
 	reducers: {
-		resetRegistered: (state) => {
+		resetRegistered: state => {
 			state.registered = false;
 		},
 	},
